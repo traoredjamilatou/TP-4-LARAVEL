@@ -16,7 +16,9 @@ use App\Http\Controllers\TuteurController;
 |
 */
 
-
+// Tuteur Route
+// Tuteur Route
+// Tuteur Route
 Route::get('/delete-tuteur/{id}', [TuteurController::class, 'delete_tuteur']);
 Route::get('/update-tuteur/{id}', [TuteurController::class, 'update_tuteur']);
 Route::post('/update2/traitement',[TuteurController::class, 'update_tuteur_traitement']);
@@ -24,7 +26,9 @@ Route::get('/tuteur',[TuteurController::class, 'liste2_tuteur']);
 Route::get('/ajouter2',[TuteurController::class, 'ajouter2_tuteur']);
 Route::post('/ajouter2/traitement',[TuteurController::class, 'ajouter2_tuteur_traitement']);
 
-
+// Etudiant Route
+// Etudiant Route
+// Etudiant Route
 Route::get('/delete-etudiant/{id}', [EtudiantController::class, 'delete_etudiant']);
 Route::get('/update-etudiant/{id}', [EtudiantController::class, 'update_etudiant']);
 Route::post('/update/traitement',[EtudiantController::class, 'update_etudiant_traitement']);
